@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Pokémon Slider - Mapadav week</title>
+    <link href="src/css/reset.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="src/imagens/icon.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Outfit&display=swap" rel="stylesheet">
+
+    <link href="src/css/style.css" rel="stylesheet">
+    <link href="src/css/responsivo.css" rel="stylesheet">
+
+</head>
+
+    <body>
+        <header class="cabecalho">
+            <img class="cabecalho__img" src="src/imagens/icon.png" alt="Pokebola">
+            <h1 class="cabecalho__titulo"> Slider Demon Slayer - MapaDev Week</h1>
+        </header>
+
+        <main class="slider">
+            <button class="slider__btn" id="btn-voltar">
+                <img src="src/imagens/seta.png" alt="seta voltar">
+            </button>
+
+            <ul class="slider__lista">
+                <li class="slider__cartao selecionado fundo-1">
+                    <div class="slider__cartao-info">
+                        <h2 class="slider__cartao-info--nome">Tanjiro</h2>
+                        <p class="slider__cartao-info--vida">HP 950</p>
+                    </div>
+
+                    <div class="slider__cartao-container">
+                        <img class="slider__cartao-container-img" src="src/imagens/tanjiro.png" alt="Tanjiro">
+                    </div>
+
+                    <div class="slider__cartao-descricao">
+                        <h3 class="slider__cartao-descricao-titulo">Descrição</h3>
+                        <p class="slider__cartao-descricao-texto">Tanjiro Kamado (竈門かまど 炭たん治じ郎ろう Kamado Tanjirō) é o protagonista principal de Demon Slayer: Kimetsu no Yaiba. Ele é um Caçador de Oni do Esquadrão de Caçadores de Onis, que se juntou para encontrar um remédio para transformar sua irmã, Nezuko Kamado, que foi transformada em um Oni, de volta em um humano.<a href="https://kimetsu-no-yaiba.fandom.com/pt-br/wiki/Tanjiro_Kamado" target="_blank"> saiba mais.</a></p>
+                    </div>
+
+                </li>
+                <li class="slider__cartao fundo-2 ">
+                    <div class="slider__cartao-info">
+                        <h2 class="slider__cartao-info--nome">Zenitsu</h2>
+                        <p class="slider__cartao-info--vida">HP 800</p>
+                    </div>
+
+                    <div class="slider__cartao-container">
+                        <img class="slider__cartao-container-img" src="src/imagens/zenitsu.png" alt="Charizard">
+                    </div>
+
+                    <div class="slider__cartao-descricao">
+                        <h3 class="slider__cartao-descricao-titulo">Descrição</h3>
+                        <p class="slider__cartao-descricao-texto">'Zenitsu Agatsuma, (我あが妻つま 善ぜん逸いつ Agatsuma Zen'itsu) é um dos principais protagonistas de Demon Slayer: Kimetsu no Yaiba. Ele é um Caçador de Oni no Esquadrão de Caçadores de Oni.<a href="https://kimetsu-no-yaiba.fandom.com/pt-br/wiki/Zenitsu_Agatsuma"  target="_blank"> saiba mais.</a></p>
+                    </div>
+                </li>
+                <li class="slider__cartao fundo-3 ">
+                    <div class="slider__cartao-info">
+                        <h2 class="slider__cartao-info--nome">Inozuke</h2>
+                        <p class="slider__cartao-info--vida">HP 1000</p>
+                    </div>
+
+                    <div class="slider__cartao-container">
+                        <img class="slider__cartao-container-img" src="src/imagens/inosuke.png" alt="Mewtwo">
+                    </div>
+
+                    <div class="slider__cartao-descricao">
+                        <h3 class="slider__cartao-descricao-titulo">Descrição</h3>
+                        <p class="slider__cartao-descricao-texto">Inosuke Hashibira (Hashibira Inosuke) é um Caçador de Demônios, sendo um dos amigos e companheiro de viagem de Tanjiro Kamado e um dos principais protagonistas de Kimetsu no Yaiba: Demon Slayer.<a href="https://liberproeliis.fandom.com/pt-br/wiki/Inosuke_Hashibira" target="_blank"> saiba mais.</a></p>
+                    </div>
+
+                </li>
+            </ul>
+
+            <button class="slider__btn" id="btn-avancar">
+                <img src="src/imagens/seta.png" alt="seta avançar">
+            </button>
+
+        </main>
+        <script src="/src/js/index.js"></script>
+    </body> 
+
+</html>
